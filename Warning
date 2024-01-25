@@ -1,0 +1,11 @@
+Trước khi tạo file mới phải thực hiện fix lỗi windown10(vue.ps1)
+Open PowerShell
+Set-ExecutionPolicy RemoveSigned
+push Y
+GET-ExecutionPolicy
+GET-ExecutionPolicy -list
+-----------------------------------------------
+Sau đó xóa lint bằng câu lệnh
+npm remove @vue/cli-plugin-eslint
+Sai router cho vue 3
+npm i vue-router
